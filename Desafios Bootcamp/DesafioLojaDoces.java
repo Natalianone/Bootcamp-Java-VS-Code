@@ -1,3 +1,5 @@
+//Programa calcula o número de doces obtidos pelo cliente em uma máquina de doces.
+
 import java.util.Scanner; 
     
 public class DesafioLojaDoces {
