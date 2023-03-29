@@ -25,14 +25,14 @@ public class QuizReflexão {
         resposta = scanner.next();
         respostas.add(resposta.toLowerCase());
 
-        System.out.printlnn(respostas);
+        System.out.println(respostas);
 
         int count = 0;
         Iterator<String> contador = respostas.iterator();
         while(contador.hasNext()){
             String resp = contador.next();
-            if(resp.contains("n")) {
-                count --;
+            if(resp.contains("s")) {
+                count ++;
             }
         }
 
